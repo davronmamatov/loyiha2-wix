@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('./fonts/Kaushan_Script/KaushanScript-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'CrimsonText';
+    src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Charm-Regular';
+    src: url('./fonts/Charm-Regular.ttf');
+}
+
+main{
+    max-height: 89vh;
+    overflow: auto;
+    position: relative;
+}
+main a .img1{
+    position: sticky;
+    left: 50px;
+    top: 250px;
+    width: 35px;
+    height: 35px;
+}
+main a .img2{
+    position: sticky;
+    left: 50px;
+    top: 320px;
+    width: 35px;
+    height: 35px;
+}
+header{
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    padding: 10px 40px;
+    /* box-shadow: 0px 5px 15px rgb(219, 218, 218);  */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header div .a1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'KaushanScript-Regular', cursive;
+    font-weight: 500;
+    color: #20303C;
+}    
+header div .a2{
+    margin-left: 35px;
+}
+header div .a3{
+    padding: 12px 30px;
+    margin-left: 50px;
+    border-radius: 55px;
+    background-color: #116DFF;
+    text-decoration: none;
+    color: white;
+}
+header div .spn{
+    display: flex;
+    margin-left: 45px;
+}
+header div .spn button{
+    border: none;
+    background-color: white;
+}
+header div .spn button img{
+    width: 30px;
+    height: 30px;
+}
+header div .spn hr{
+    height: 28px;
+    border: 1px solid rgb(176, 172, 172);
+    margin-left: 20px;
+    margin-right: 12px;
+}
+section{
+    background-color: #17161C;
+}
+section .container{
+    width: 1100px;
+    margin: 0 auto;
+    font-family: serif;
+    background-color: #17161C;
+    padding-top: 20px;
+}
+section .container .spn1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+section .container .spn1 h1{
+    font-size: 32px;
+    font-family: 'CrimsonText' serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+section .container .spn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+section .container .spn1 a:hover{
+    color: #FE805D;
+}
+section .container .spn1 .a-1{
+    margin-right: 50px;
+}
+section div{
+    position: relative;
+}
+section div .images{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+section div .spn2 h2{
+    color: #FE805D;
+    font-size: 70px;
+    margin-left: 620px;
+    font-family: 'CrimsonText' serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+section div .spn2 p{
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    margin-left: 620px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#section-1{
+    background-color: #2C2B30;
+    padding-left: 20px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+#section-1 .container1 {
+    width: 1060px;
+    margin: 0 auto;
+    background-color: #1F1F24;
+    display: flex;
+    justify-content: space-between;
+}
+#section-1 .container1 div .abs{
+    background-color: #FE805D;
+    width: 270px;
+    height: 42px;
+    padding-left: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+#section-1 .container1 div .abs p{
+    margin-top: 10px;
+    color: rgb(94, 91, 91);
+    font-size: 20px;
+}
+#section-1 .container1 div .abs span{
+    width: 30px;
+    height: 30px;
+    background-color:  #1F1F24;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -15px;
+    transform: rotateZ(45deg);
+}
+#section-1 .container1 img{
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+#section-1 .container1 div span{
+    color: white;
+    width: 350px;
+    display: block;
+    margin-left: 50px;
+}
+#section-1 .container1 div span h4{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Charm-Regular', cursive;
+
+}
+#section-1 .container1 div span p{
+    font-size: 20px;
+}
+#section-1 .container1 div span .Order{
+    font-size: 25px;
+}
+#section-1 .container1 div span .span-a{
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+#section-1 .container1 div span .span-a a{
+    text-decoration: none;
+    color: #FE805D;
+    border: 1px solid #FE805D;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+#section-1 .container1 div span .span-a a:hover{
+    background-color: #FE805D;
+    color: rgb(40, 39, 39);
+    transition: 0.5s;
+}
+#section-2{
+    background-color: #1F222F;
+}
+#section-2 .container{
+    /* border: 1px solid red; */
+    background-color: #1F222F;
+    padding-top: 100px;
+    position: relative;
+}
+#section-2 .container .belgi{
+    width: 35px;
+    height: 80px;
+    background-color: #FE805D;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#section-2 .container .belgi span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #1F222F;
+    position: absolute;
+    bottom: -12px;
+    right: 5px;
+    transform: rotateZ(45deg);
+}
+#section-2 .container h2{
+    text-align: center;
+    color: #FE805D;
+    font-size: 45px;
+}
+#section-2 .container .flex{
+    display: flex;
+    justify-content: space-between;
+}
+#section-2 .container .flex span{
+    text-align: center;
+    width: 340px;
+}
+#section-2 .container .flex span p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px; /* hariflar orasidagi masofa */
+    line-height: 30px; /*qatorlar orasidagi masofa*/
+}
+#section-2 .container .flex span span{
+    width: 270px;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+#section-2 .container .flex span span p{
+    color: #FE805D;
+}
+#section-2 .container .flex span span hr{
+    margin-top: 50px;
+    width: 130px;
+}
+#section-2 .container .flex span span .hr2{
+    margin-top: 80px;
+}
+#section-3{
+    padding-top: 100px;
+
+}
+#section-3 .div-1{
+    text-align: center;
+}
+#section-3 .div-1 h2{
+    color: #FE805D;
+    font-size: 45px;
+}
+#section-3 .div-1 span{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+#section-3 .div-1 span p{
+    color: white;
+    font-size: 20px;
+}
+#section-3 .div-2 {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#section-3 .div-2 p{
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 60px;
+    line-height: 50px;
+}
+#section-3 .div-2 a{
+    padding: 10px 70px;
+    border: 1px solid #FE805D;
+    /* background-color: #FE805D; */
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #FE805D; 
+    font-family: sans-serif;
+}
+#section-3 .div-2 a:hover{
+    background-color: #FE805D;
+    color: #2C2B30;
+}
+#section-3 .div-3{
+    width: 1100px;
+    height: 800px;
+    background-color: #1F222F;
+    margin: 0 auto;
+    margin-top: 300px;
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+}
+#section-3 .div-3 .mitka{
+    display: block;
+    width: 30px;
+    height: 100px;
+    background-color: #FE805D;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+#section-3 .div-3 .mitka span{
+    background-color: #1F222F;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    left: 4px;
+    bottom: -10px;
+    transform: rotateZ(45deg);
+}
+#section-3 .div-3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 430px;
+}
+#section-3 .div-3 h4{
+    font-size: 40px;
+    color: #FE805D;
+    letter-spacing: 2px;
+}
+#section-3 .div-3 p{
+    width: 480px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    line-height: 40px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+#section-3 .div-3 a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 70px;
+    border:  1px solid #FE805D;
+    border-radius: 30px;
+    color: #FE805D;
+}
+#section-3 .div-3 a:hover{
+    background-color: #FE805D;
+    color: rgb(82, 78, 78);
+}
+footer{
+    background-color: #FE805D;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer .footer-1 a {
+    margin-left: 5px;
+}
+
